@@ -11,7 +11,7 @@ const app = express();
 
 
 //dynamic port
-const port = process.env.PORT || 1303;
+const port = process.env.PORT || 3001;
 app.use(express.json());
 app.use(cors());
 app.use(router);
